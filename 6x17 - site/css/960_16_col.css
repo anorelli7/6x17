@@ -10,10 +10,12 @@
 /* Containers
 ----------------------------------------------------------------------------------------------------*/
 .container_16 {
+  overflow:auto;
+  padding-bottom: 180px;
   width: 92%;
   margin-left: 4%;
   margin-right: 4%;
-  height: 100%;
+
 }
 
 /* Grid >> Global

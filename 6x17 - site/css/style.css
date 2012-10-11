@@ -1,8 +1,9 @@
-body {
-	margin-bottom: 150px;
+html, body {
+	margin: 0;
+	padding: 0;
 	background: white;
 	font-family: didot, cochin, times new roman;
-	min-height: 100%;
+	height: 100%;
 }
 
 h1 {
@@ -16,7 +17,6 @@ h1 {
 h2 {
 	font-size: 23px;
 	color: #C7C7C7;
-	padding: 26px 65px;
 }
 
 h3.signature {
@@ -37,7 +37,6 @@ p.imageTitle {
 }
 nav {
 	margin-top: 95px;
-	margin-right: 100px;
 }
 nav li {
 	float: left;
@@ -60,28 +59,28 @@ header {
 	overflow: hidden;
 }
 
-footer {
+#footer {
 	border-top: 1px solid #CCCCCC;
-	margin-top: 10px;
-	
-	position: absolute;
-	display: inline;
-	height: 45px;
-	width: 98%;
-	bottom: 0;
-	padding-top: 10px;
-	text-align: right;
 	color: #CACACA;
-	background: #FFF;
+	width: 98%;
+	text-align: right;
+	text-indent: 20px;
+	position: relative;
+	margin-top: -45px; /* negative value of footer height */
+	height: 45px;
+	clear:both;
 }
 .invisible {
 	display: none;
 }
-.wrapper {
+#wrapper {
 	min-height: 100%;
-	height: auto !important;
-	height: 100%;
-	margin: 0 auto;
+	/*height: 100%;
+	margin: 0 auto;*/
+}
+#main {
+	overflow:auto;
+	padding-bottom: 45px;
 }
 .logo {
 	background: url('../images/6x17logo_v2_min2.jpg') no-repeat;
