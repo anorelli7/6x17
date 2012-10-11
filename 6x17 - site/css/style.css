@@ -14,6 +14,8 @@ h1 {
 	text-indent: -999999px;
 }
 
+
+
 h2 {
 	font-size: 23px;
 	color: #C7C7C7;
@@ -27,7 +29,7 @@ p {
 	font-size: 14px;
 	line-height: 19px;
 	text-align: left;
-	color: #999999;
+	color: #333333;
 }
 
 p.imageTitle {
@@ -43,10 +45,14 @@ nav li {
 	width: 100px;
 }
 nav li a {
+	margin-left: -40%;
 	display: block;
+	width: 85px;
+	padding: 0 4px;
+	background: #FFF;
 	text-decoration: none;
-	text-align: center;
-	color: #CACACA;
+	text-align: justify;
+	color: #333;
 }
 
 nav li a:hover {
@@ -61,7 +67,7 @@ header {
 
 #footer {
 	border-top: 1px solid #CCCCCC;
-	color: #CACACA;
+	color: #000000;
 	width: 98%;
 	text-align: right;
 	text-indent: 20px;
@@ -83,9 +89,10 @@ header {
 	padding-bottom: 45px;
 }
 .logo {
+	
 	background: url('../images/6x17logo_v2_min2.jpg') no-repeat;
 	margin-top: 10px;
-	position: absolute;
+	position: relative;
 	left: 100px;
 	width: 100px;
 }
