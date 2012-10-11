@@ -1,0 +1,110 @@
+body {
+	margin-bottom: 150px;
+	background: white;
+	font-family: didot, cochin, times new roman;
+	min-height: 100%;
+}
+
+h1 {
+	font-size: 20px;
+	color: #666666;
+	padding: 60px 28px;
+	display: block;
+	text-indent: -999999px;
+}
+
+h2 {
+	font-size: 23px;
+	color: #C7C7C7;
+	padding: 26px 65px;
+}
+
+h3.signature {
+	text-align: right;
+
+}
+p {
+	font-size: 14px;
+	line-height: 19px;
+	text-align: left;
+	color: #999999;
+}
+
+p.imageTitle {
+	margin-top: 25px;
+	text-align: center;
+
+}
+nav {
+	margin-top: 95px;
+	margin-right: 100px;
+}
+nav li {
+	float: left;
+	width: 100px;
+}
+nav li a {
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	color: #CACACA;
+}
+
+nav li a:hover {
+	color: black;
+}
+header {
+	height: 121px;
+	width: 92%;
+	border-bottom: 1px solid #CCCCCC;
+	overflow: hidden;
+}
+
+footer {
+	border-top: 1px solid #CCCCCC;
+	margin-top: 10px;
+	
+	position: absolute;
+	display: inline;
+	height: 45px;
+	width: 92%;
+	bottom: 0;
+	padding-top: 10px;
+	text-align: right;
+	color: #CACACA;
+	background: #FFF;
+}
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto;
+}
+.logo {
+	background: url('../images/6x17logo_min.jpg') no-repeat;
+	width: 175px;
+}
+
+img {
+	
+}
+img.main {
+	width:100%;
+	margin-top: 100px;
+	margin-bottom: 30px;
+}
+
+img.thumbnail {
+	width: 100%;
+	margin-top: 50px;
+}
+
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+
+
