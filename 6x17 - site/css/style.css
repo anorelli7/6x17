@@ -55,7 +55,7 @@ nav li a:hover {
 }
 header {
 	height: 121px;
-	width: 92%;
+	width: 98%;
 	border-bottom: 1px solid #CCCCCC;
 	overflow: hidden;
 }
@@ -67,7 +67,7 @@ footer {
 	position: absolute;
 	display: inline;
 	height: 45px;
-	width: 92%;
+	width: 98%;
 	bottom: 0;
 	padding-top: 10px;
 	text-align: right;
@@ -90,7 +90,16 @@ footer {
 	left: 100px;
 	width: 100px;
 }
+.homelink {
+	text-align: center;
+	text-decoration: none;
+	width: 100%;
+}
 
+.center {
+	margin: 0 auto;
+	width: 100%;
+}
 img {
 	
 }
