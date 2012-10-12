@@ -7,11 +7,11 @@ html, body {
 }
 
 h1 {
-	font-size: 20px;
+	font-size: 70px;
 	color: #666666;
-	padding: 60px 28px;
+	padding: 35px 100px;
 	display: block;
-	text-indent: -999999px;
+	
 }
 
 
@@ -94,6 +94,7 @@ header {
 	margin-top: 10px;
 	position: relative;
 	left: 11%;
+	top: 18%;
 	width: 100px;
 }
 .homelink {
