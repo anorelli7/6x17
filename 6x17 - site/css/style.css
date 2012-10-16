@@ -58,6 +58,7 @@ nav li a {
 nav li a:hover {
 	color: black;
 }
+
 header {
 	height: 121px;
 	width: 98%;
@@ -89,7 +90,6 @@ header {
 	padding-bottom: 45px;
 }
 .logo {
-	
 	background: url('../images/6x17logo_v2_min2.jpg') no-repeat;
 	margin-top: 10px;
 	position: relative;
@@ -110,6 +110,14 @@ header {
 img {
 	
 }
+
+.imageView {
+	height: 100%;
+
+}
+p.caption {
+	text-align: right;
+}
 img.main {
 	width:100%;
 	margin-top: 100px;
@@ -119,7 +127,7 @@ img.main {
 img.thumbnail {
 	width: 100%;
 	margin-top: 50px;
-	opacity: .7;
+	/*opacity: .7;*/
 }
 img.thumbnail:hover {
 	opacity: 1;
@@ -134,3 +142,4 @@ img.thumbnail:hover {
 }
 
 
+/* ================== */
