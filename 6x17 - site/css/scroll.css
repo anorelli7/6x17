@@ -1,0 +1,100 @@
+body {
+    height:100%;
+    width:100%;
+    margin:0;padding:0;
+}
+ 
+#wrapper {
+    width:100%;
+    height: 100%;
+    position:relative;
+    top:5%;left:0;
+    padding-bottom: 85px;
+    background-color:#FFF;
+    overflow:hidden;
+    min-height: 100%;
+}
+ 
+    #mask {
+        width:500%;
+        /*height: 100%; */
+        overflow: auto;
+        background-color:#FFF;
+    }
+ 
+    .item {
+        width:20%;
+        /*height:100%;*/
+        float:left;
+        background-color:#fff;
+    }
+     
+
+    .content {
+        width:80%;
+        top:10%;
+        margin:0 auto;
+        background-color:#fff;
+        position:relative;
+
+    }
+     
+    .selected {
+        background:#fff;
+        font-weight:700;
+    }
+ 
+    .clear {
+        clear:both;
+    }
+
+    .next {
+        display: block;
+        width:20px;
+        height: 20px;
+        background: url('../images/arrows-vs.png') 0px -110px no-repeat;
+        float: right;
+    }
+    .back {
+        display: block;
+        width:20px;
+        height: 20px;
+        background: url('../images/arrows-vs.png') 0px -74px no-repeat;
+        float: right;
+    }
+
+    img {
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+    padding-top: 50px;
+    width: 45%;
+    position: relative;
+    margin: 0 auto;
+    
+}
+    p{
+        text-align: center;
+    }
+
+.galleryNav {
+    position: relative;
+    bottom: 20%;
+    text-align: center;
+}
+
+.galleryNav a:visited {
+    color: blue;
+}
+
+#footer {f
+    height: 45px;
+    position: relative;
+    margin-top: -45px; /* negative value of footer height */
+    clear:both;
+    bottom: 0px;
+    background: white;
+    
+}
