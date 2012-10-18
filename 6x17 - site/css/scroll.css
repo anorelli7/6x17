@@ -79,15 +79,26 @@ body {
         text-align: center;
     }
 
-.galleryNav {
-    position: relative;
-    bottom: 20%;
-    text-align: center;
+@media all and (min-width: 961px) {
+    .galleryNav {
+        position: relative;
+        bottom: 40%;
+        text-align: center;
+    }
+
+    .galleryNav a:visited {
+        color: blue;
+    }
+}
+@media all and (max-width: 960px) {
+    .galleryNav {
+        position: relative;
+        bottom: 70%;
+        text-align: center;
+    }
+
 }
 
-.galleryNav a:visited {
-    color: blue;
-}
 
 #footer {f
     height: 45px;
