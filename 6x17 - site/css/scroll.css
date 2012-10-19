@@ -48,20 +48,7 @@ body {
         clear:both;
     }
 
-    .next {
-        display: block;
-        width:20px;
-        height: 20px;
-        background: url('../images/arrows-vs.png') 0px -110px no-repeat;
-        float: right;
-    }
-    .back {
-        display: block;
-        width:20px;
-        height: 20px;
-        background: url('../images/arrows-vs.png') 0px -74px no-repeat;
-        float: right;
-    }
+    
 
     img {
     width: 100%;
@@ -82,7 +69,7 @@ body {
 @media all and (min-width: 961px) {
     .galleryNav {
         position: relative;
-        bottom: 40%;
+        bottom: 30%;
         text-align: center;
     }
 
@@ -93,7 +80,7 @@ body {
 @media all and (max-width: 960px) {
     .galleryNav {
         position: relative;
-        bottom: 70%;
+        bottom: 5%;
         text-align: center;
     }
 

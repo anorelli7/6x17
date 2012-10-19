@@ -232,12 +232,26 @@ img.thumbnail:hover {
     
 }
 /* ================== */
-@media all and (max-width: 641px) {
+@media all and (max-width: 400px) {
 	.logo {
-		left: 30%;
+		left:20%;
 	}
     nav ul {
-    	left: 5%;
+    	left: 0%;
+    	width: 400px;
+    }
+
+    nav li {
+    	width: 70px;
+    }
+    nav a {
+    	padding-top: 5px;
+    	width: 70px;
+    	height: 25px;
+    	font-size: 12px;
+    }
+    p.title {
+    	display: none;	
     }
     
    
