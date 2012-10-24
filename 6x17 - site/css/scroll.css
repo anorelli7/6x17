@@ -73,11 +73,12 @@ body {
 
 @media all and (min-width: 1025px) {
     .galleryNav {
+        display: block;
         text-align: right;
-        width: 45%;
         position: relative;
         top: 1%;
-        float: right;
+        right: 4.5%;
+        
         margin: 10px 0px 0px 0px;
     }
 
@@ -85,17 +86,18 @@ body {
 }
 @media all and (max-width: 1024px) {
     .galleryNav {
+        display: block;
         text-align: right;
         font-size: 12px;
         color: blue;
-        width: 45%;
+        
         position: relative;
-        float: right;
+        right: 4.5%;
         margin: 10px 0px 0px 0px;
     }
 
     .content {
-        width: 100%;
+        width: 95%;
     }
     .title {
         width: 70%;
