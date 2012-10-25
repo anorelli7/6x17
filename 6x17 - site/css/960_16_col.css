@@ -100,6 +100,7 @@
   width:60.5%;
 }
 
+
 .container_16 .grid_11 {
   width:66.75%;
 }
@@ -388,7 +389,14 @@
   left:-93.75%;
 }
 
-
+@media all and (max-width: 640px) {
+  .container_16 .grid_10 {
+  width:85%;
+}
+  .container_16 .push_3 {
+  left:6%;
+}
+}
 
 
 /* Clear Floated Elements

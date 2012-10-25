@@ -321,7 +321,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     	margin: 55px auto 0px auto;
     }
     
-   
+   	p {
+   		width: 95%;
+   	}
     
     
 }
