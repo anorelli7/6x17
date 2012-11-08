@@ -10,7 +10,7 @@ body {
     position:relative;
     top:5%;left:0;
     padding-bottom: 85px;
-    background-color:#FFF;
+    /*background-color:#FFF;*/
     overflow:hidden;
     min-height: 100%;
 }
@@ -19,14 +19,14 @@ body {
         width:500%;
         /*height: 100%; */
         overflow: auto;
-        background-color:#FFF;
+        
     }
  
     .item {
         width:20%;
         /*height:100%;*/
         float:left;
-        background-color:#fff;
+        
     }
      
 
@@ -34,7 +34,7 @@ body {
         width:80%;
         top:10%;
         margin:0 auto;
-        background-color:#fff;
+        
         position:relative;
 
     }
@@ -118,6 +118,5 @@ body {
     margin-top: -45px; /* negative value of footer height */
     clear:both;
     bottom: 0px;
-    background: white;
     
 }
