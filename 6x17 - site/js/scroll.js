@@ -16,7 +16,9 @@ $(document).ready(function() {
                 //cancel the link default behavior
         return false;
     });
- 
+    //get the browser width and height
+    width = $(window).width();
+    height = $(window).height();
  
     //resize all the items according to the new browser size
     $(window).resize(function () {
@@ -24,9 +26,7 @@ $(document).ready(function() {
         //call the resizePanel function
         resizePanel(function resizePanel() {
  
-    //get the browser width and height
-    width = $(window).width();
-    height = $(window).height();
+    
  
     //get the mask width: width * total of items
     mask_width = width * $('.item').length;
@@ -39,6 +39,13 @@ $(document).ready(function() {
     $('#wrapper').scrollTo($('a.selected').attr('href'), 0);
          
 });
+    });
+
+    $(window).load(function () {
+        if (width <= 1024) {
+        window.scroll(0, 138);
+        console.log('success');
+        };
     });
      
 });
