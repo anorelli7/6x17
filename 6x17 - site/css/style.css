@@ -185,7 +185,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	}
 
 	nav li a:hover {
-		color: black;
+		color: white;
+		
+	padding-top: 10px;
 	}
 
 	header {
